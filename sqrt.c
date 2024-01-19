@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-  double A = sqrt(9);
-  double B = pow(2,4);
-  printf("%.2lf\n", A);
-  printf("%.2lf\n", B);
+  double A, B, C;
+  printf("Enter side A and B\n");
+  scanf("%lf %lf", &A, &B);
+  C = sqrt((A*A) + (B*B));
+  printf("Side C = %.2lf", C);
   return 0;
 }
