@@ -2,15 +2,8 @@
 #include <windows.h>
 int main()
 {
-  int h, m, s, day;
+  int h=0, m=0, s=0, day=0;
   int d = 1000;
-  printf("Set time : \n");
-  scanf("%d %d %d %d", &h, &m, &s, &day);
-  if (h>24 || m>60 || s>60)
-  {
-    printf("Error ! \n");
-    exit(0);
-  }
   while (1)
   {
     s++;
